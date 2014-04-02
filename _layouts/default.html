@@ -1,44 +1,32 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
-        <meta name="viewport" content="width=device-width">
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <title>{{ page.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 
-        <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+  <link rel="stylesheet" href="/stylesheets/style.css" type="text/css" media="screen">
+  <script src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
 
-        <!-- Custom CSS -->
-        <link rel="stylesheet" href="/css/main.css">
+<body>
+  <div class="width-wrapper">
+    <header>
+      <h1><a href="/">{{ site.name }}</a></h1>
+      <p>Currently, I’m a Designer at OpenGov where I design and develop User Interfaces for advance civic financial reporting. In the past I’ve run my own design agency, studied architecture, and worked as a theatrical set designer.</p>
+    </header>
 
-    </head>
-    <body>
+    {{ content }}
 
-        <div class="site">
-          <div class="header">
-            <h1 class="title"><a href="/">{{ site.name }}</a></h1>
-            <a class="extra" href="/">home</a>
-          </div>
+    <footer>
+      <ul>
+        <li>Twitter</li>
+        <li>Dribbble</li>
+        <li>Github</li>
+      </ul>
 
-          {{ content }}
-
-          <div class="footer">
-            <div class="contact">
-              <p>
-                Your Name<br />
-                What You Are<br />
-                you@example.com
-              </p>
-            </div>
-            <div class="contact">
-              <p>
-                <a href="https://github.com/yourusername">github.com/yourusername</a><br />
-                <a href="https://twitter.com/yourusername">twitter.com/yourusername</a><br />
-              </p>
-            </div>
-          </div>
-        </div>
-
-    </body>
+      <p>This site is a documented work in progress. View the source on Github</p>
+    </footer>
+  </div>
+</body>
 </html>
