@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Drawing the whole picture at once, or why this blog is so crappy"
-categories: design
+categories: design, HTML, CSS, Github, Github Pages, Jekyll
 ---
 
 I took a figure drawing class my freshman year in college. The instructor had a mantra, "draw the entire picture at once!" He said it over and over, and it took me a long time to understand what he meant. How is it possible to draw the entire picture at once?

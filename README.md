@@ -16,5 +16,8 @@ It's ugly now, but I'm working on it (and writing about the work in the meantime
 * [HTML](http://www.w3.org/html/)
 * [Jekyll](http://jekyllrb.com)
 
+### Hosting
+* [Github Pages](http://https://pages.github.com)
+
 ## Note to self
 In development, start the Jekyll server with `bundle exec jekyll serve --watch --baseurl=`
