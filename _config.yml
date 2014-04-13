@@ -1,4 +1,5 @@
 name: Andrew Liebchen
 markdown: redcarpet
 pygments: true
+baseurl: "http://andrewliebchen.github.io/a12n"
 gems: [jekyll/timeago]
