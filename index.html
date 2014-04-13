@@ -7,8 +7,9 @@ title: Andrew Liebchen
   {% for post in site.posts %}
     <article>
       <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+      <p>{{ post.excerpt }}</p>
       <p><a href="#">Continue reading</a></p>
-      <p>Posted <time>{{ post.date | timeago }}</time></p>
+      <p><em>Posted <time>{{ post.date | timeago }}</time></em></p>
     </article>
   {% endfor %}
 </section>
