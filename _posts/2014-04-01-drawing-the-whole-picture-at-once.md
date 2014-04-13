@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Drawing the whole picture at once, or why this blog is so crappy"
-categories: design, HTML, CSS, Github, Github Pages, Jekyll
 changelog: "Inital set up, including installing Jekyll, basic HTML and CSS, and deployment with Github Pages."
 ---
 
