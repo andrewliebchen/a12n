@@ -20,7 +20,19 @@ hr {
 }
 
 .width-wrapper {
+  margin: 0 auto;
   max-width: 900px;
   padding: 2em;
-  margin: 0 auto;
+}
+
+img {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+blockquote {
+  border-left: 3px solid #CCC;
+  font-style: italic;
+  margin-left: 0;
+  padding-left: 20px;
 }
