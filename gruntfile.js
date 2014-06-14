@@ -16,7 +16,6 @@ today = yyyy + '-' + dd + '-' + mm;
 
 // Get on with the Grunt
 module.exports = function(grunt) {
-  // 1. All configuration goes here
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -31,11 +30,70 @@ module.exports = function(grunt) {
       },
       src: 'index.html'
     },
+
+    jekyll: {
+      options: {
+        bundleExec: true,
+        src : '<%= app %>'
+      },
+      dist: {
+        options: {
+          dest: '<%= dist %>',
+          config: '_config.yml'
+        }
+      },
+    },
+
+    sass: {
+      dist: {
+        options: {
+          style: 'expanded'
+        },
+        files: {
+          './stylesheets/style.css': './stylesheets/style.scss'
+        }
+      }
+    },
+
+    watch: {
+      files: [
+        './stylesheets/**/*.scss',
+        './_layouts/*.html',
+        './_posts/*.md'
+      ],
+      tasks: ['sass', 'jekyll'],
+      options: {
+        spawn: false,
+      },
+    },
+
+    connect: {
+      server: {
+        options: {
+          port: 4000,
+          hostname: 'localhost',
+          base: './_site',
+          keepalive: true
+        }
+      }
+    },
+
+    concurrent: {
+      tasks: ['watch', 'connect'],
+      options: {
+          logConcurrentOutput: true
+      }
+    }
   });
 
-  // 3. Where we tell Grunt we plan to use this plug-in.
   grunt.loadNpmTasks('grunt-localscreenshots');
+  grunt.loadNpmTasks('grunt-jekyll');
+  grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-connect');
+  grunt.loadNpmTasks('grunt-concurrent');
 
-  // 4. Where we tell Grunt what to do when we type "grunt" into the terminal.
   grunt.registerTask('default', ['localscreenshots']);
+  grunt.registerTask('build', ['sass', 'jekyll']);
+  grunt.registerTask('serve', ['build', 'concurrent']);
 };
