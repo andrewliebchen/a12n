@@ -1,0 +1,5 @@
+// BASELINE GRID
+html {
+  @include background-image(linear-gradient(to bottom, transparent 99%, rgba($colorDev, 0.5) 100%));
+  background-size: 100% $gutter;
+}

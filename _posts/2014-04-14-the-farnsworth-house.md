@@ -3,7 +3,6 @@ layout: post
 title:  "The Farnsworth House"
 changelog: "Install Grunt, set up automated screenshots, add additional post styling"
 ---
-
 It sounds hyperbolic, but the design and development of a web property is a craft. Using craft to describe how one makes anything has been devalued to the point of meaninglessness by overly precious marketing copy, to the point that when I read the phrase "Hand-crafted website," I hear ukulele music in my head.
 
 So, how is web design and development a craft? Almost everything on the web is bespoke. Sure, there's automation, frameworks, UI kits, and great tools, but your grandpa in his workshop also has power tools, jigs, and Home Depot, yet you wouldn't _dare_ say that trivet he made for your birthday _isn't_ handcrafted.  Would you?

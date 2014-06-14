@@ -3,7 +3,6 @@ layout: post
 title:  "Drawing the whole picture at once, or why this blog is so crappy"
 changelog: "Inital set up, including installing Jekyll, basic HTML and CSS, and deployment with Github Pages."
 ---
-
 I took a figure drawing class my freshman year in college. The instructor had a mantra, "draw the entire picture at once!" He said it over and over, and it took me a long time to understand what he meant. How is it possible to draw the entire picture at once?
 
 Eventually, I understood the key to drawing the entire picture at once: progressive refinement. I realized that the composition should appear on my drawing board like a camera slowly slowly focussing in on its subject. In the first pass, you capture the relationship between all objects in the composition. Then, capture the composition's general areas of light and shadow. In a series of passes, gradually refine and clarify: edges become sharper, shading between highlight and shadow show more tone, and on and on. You literally have to draw the entire picture in a series of passes, with each pass moving up a scale of visual refinement.

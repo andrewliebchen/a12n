@@ -1,30 +1,109 @@
 // Sassy!
+$colorDev: rgb(217, 88, 88);
+
+@import "../bower_components/bourbon/dist/bourbon";
+@import "helpers/grid-settings";
+@import "../bower_components/neat/app/assets/stylesheets/neat";
+@import "../bower_components/normalize-scss/normalize";
+
+@import "helpers/development";
+
+$colorDark: #222;
+$colorMid:  #AAA;
+$colorLight: #F0F0F0;
+
+$colorText: $colorDark;
+$colorLink: #0074D9;
+
+$fontFamilyBase: $helvetica;
+
+@mixin underlined-base {
+  background-repeat: repeat-x;
+  text-decoration: none;
+}
+
+@mixin underlined-params($width: 1px, $position: 1em) {
+  background-size: $width $width;
+  background-position: 0 $position;
+}
+
+@mixin underlined-color($color: $colorText) {
+  @if $color == "none" {
+    background-image: none;
+  } @else {
+    @include background-image(linear-gradient(to bottom, transparent 50%, $color 50%));
+  }
+}
 
 html,
 body {
+  font-family: $fontFamilyBase;
+  color: $colorText;
   font-size: 16px;
-  line-height: 2em;
+  line-height: $gutter;
+}
+
+body {
+  @include pad(0 default);
 }
 
 h1,
 h2,
-p {
-  margin: 0 0 1em;
-}
-
 h3,
 h4 {
   margin: 0;
 }
 
-hr {
-  margin-bottom: 1em;
+h1,
+h2 {
+  a,
+  a:hover {
+    @include underlined-color(none);
+  }
 }
 
-.width-wrapper {
-  margin: 0 auto;
-  max-width: 900px;
-  padding: 2em;
+p,
+ul,
+ol {
+  margin: 0 0 $gutter;
+}
+
+a {
+  @include underlined-base;
+  @include underlined-params;
+  @include underlined-color;
+  @include transition(all 0.05s linear);
+  color: $colorText;
+
+  &:hover {
+    @include underlined-color($colorLink);
+    color: $colorLink;
+  }
+
+  &:active {
+    $color: tint($colorLink, 40%);
+    @include underlined-color($color);
+    @include transition(none);
+    color: $color;
+  }
+}
+
+ul,
+ol {
+  padding: 0;
+
+  li {
+    @include shift(1);
+  }
+}
+
+ul {
+  list-style: circle;
+}
+
+small {
+  color: $colorMid;
+  font-weight: 200;
 }
 
 img {
@@ -33,8 +112,33 @@ img {
 }
 
 blockquote {
-  border-left: 3px solid #CCC;
-  font-style: italic;
-  margin-left: 0;
-  padding-left: 20px;
+  color: $colorMid;
+  font-family: $monospace;
+  margin: 0;
+}
+
+// LAYOUT
+.width-wrapper {
+  @include outer-container;
+}
+
+section,
+footer {
+  margin-bottom: $gutter;
+}
+
+header {
+  padding: $gutter 0 $gutter;
+}
+
+.post-excerpt {
+  margin-bottom: 2em;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  padding-top: $gutter;
 }
