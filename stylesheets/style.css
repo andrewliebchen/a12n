@@ -541,6 +541,7 @@ blockquote {
 }
 
 section,
+.post,
 footer {
   margin-bottom: 2em;
 }
