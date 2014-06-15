@@ -17,7 +17,7 @@ body:before {
   left: 0;
   margin: 0 auto;
   max-width: 45em;
-  opacity: 0.05;
+  opacity: 0.04;
   position: fixed;
   right: 0;
   width: 100%;
@@ -457,7 +457,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   margin: 0;
 }
 
@@ -466,6 +467,11 @@ h1 a:hover,
 h2 a,
 h2 a:hover {
   background-image: none;
+}
+
+h4 a {
+  background-size: 1px 1px;
+  background-position: 0 1.1em;
 }
 
 p,
@@ -515,7 +521,6 @@ ul {
 
 small {
   color: #aaaaaa;
-  font-weight: 200;
 }
 
 img {
@@ -550,6 +555,10 @@ header {
   padding: 2em 0 2em;
 }
 
+footer {
+  padding-top: 2em;
+}
+
 .post-excerpt {
   margin-bottom: 2em;
 }
@@ -557,6 +566,36 @@ header {
   margin-bottom: 0;
 }
 
-footer {
-  padding-top: 2em;
+.resume {
+  margin-bottom: 0;
+}
+
+.resume-item {
+  display: block;
+}
+.resume-item:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.resume-title {
+  float: left;
+  display: block;
+  margin-right: 2.74614%;
+  width: 31.50258%;
+}
+.resume-title:last-child {
+  margin-right: 0;
+}
+
+.resume-description {
+  float: left;
+  display: block;
+  margin-right: 2.74614%;
+  width: 65.75129%;
+  margin-right: 0;
+}
+.resume-description:last-child {
+  margin-right: 0;
 }

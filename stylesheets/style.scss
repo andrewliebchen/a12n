@@ -1,4 +1,3 @@
-// Sassy!
 $colorDev: rgb(217, 88, 88);
 
 @import "../bower_components/bourbon/dist/bourbon";
@@ -50,7 +49,8 @@ body {
 h1,
 h2,
 h3,
-h4 {
+h4,
+h5 {
   margin: 0;
 }
 
@@ -59,6 +59,12 @@ h2 {
   a,
   a:hover {
     @include underlined-color(none);
+  }
+}
+
+h4 {
+  a {
+    @include underlined-params($position: 1.1em);
   }
 }
 
@@ -103,7 +109,6 @@ ul {
 
 small {
   color: $colorMid;
-  font-weight: 200;
 }
 
 img {
@@ -132,6 +137,11 @@ header {
   padding: $gutter 0 $gutter;
 }
 
+footer {
+  padding-top: $gutter;
+}
+
+// VIEWS
 .post-excerpt {
   margin-bottom: 2em;
 
@@ -140,6 +150,19 @@ header {
   }
 }
 
-footer {
-  padding-top: $gutter;
+.resume {
+  margin-bottom: 0;
+}
+
+.resume-item {
+  @include row();
+}
+
+.resume-title {
+  @include span-columns(4);
+}
+
+.resume-description {
+  @include span-columns(8);
+  @include omega;
 }

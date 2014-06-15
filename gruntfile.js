@@ -59,6 +59,7 @@ module.exports = function(grunt) {
       files: [
         './stylesheets/**/*.scss',
         './_layouts/*.html',
+        './*.html',
         './_posts/*.md'
       ],
       tasks: ['sass', 'jekyll'],
