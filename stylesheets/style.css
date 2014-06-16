@@ -442,39 +442,6 @@ html {
   background-size: 100% 2em;
 }
 
-@font-face {
-  font-family: icon;
-  font-weight: normal;
-  font-style: normal;
-  src: url("../fonts/andrew-liebchencom.eot");
-  src: url("../fonts/andrew-liebchencom.eot?#iefix") format("embedded-opentype"), url("../fonts/andrew-liebchencom.woff") format("woff"), url("../fonts/andrew-liebchencom.ttf") format("truetype"), url("../fonts/andrew-liebchencom.svg#icon") format("svg");
-}
-a.nav-item:before,
-[class^="icon-"]:before {
-  font-family: "icon" !important;
-  font-style: normal !important;
-  font-weight: normal !important;
-  font-variant: normal !important;
-  text-transform: none !important;
-  speak: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  position: relative;
-}
-
-.icon-blog:before, a.nav-item:nth-child(1):before {
-  content: "\e003";
-}
-
-.icon-about:before, a.nav-item:nth-child(2):before {
-  content: "\e000";
-}
-
-.icon-work:before, a.nav-item:nth-child(3):before {
-  content: "\e001";
-}
-
 html,
 body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
@@ -578,6 +545,7 @@ blockquote {
   clear: both;
 }
 
+header,
 section,
 nav,
 .post,
@@ -622,38 +590,4 @@ footer {
 }
 .post-excerpt p {
   margin-bottom: 0;
-}
-
-.resume {
-  margin-bottom: 0;
-}
-
-.resume-item {
-  display: block;
-}
-.resume-item:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-.resume-title {
-  float: left;
-  display: block;
-  margin-right: 2.74614%;
-  width: 31.50258%;
-}
-.resume-title:last-child {
-  margin-right: 0;
-}
-
-.resume-description {
-  float: left;
-  display: block;
-  margin-right: 2.74614%;
-  width: 65.75129%;
-  margin-right: 0;
-}
-.resume-description:last-child {
-  margin-right: 0;
 }
