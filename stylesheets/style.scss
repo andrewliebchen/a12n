@@ -6,6 +6,7 @@ $colorDev: rgb(217, 88, 88);
 @import "../bower_components/normalize-scss/normalize";
 
 @import "helpers/development";
+@import "helpers/icons";
 
 $colorDark: #222;
 $colorMid:  #AAA;
@@ -128,13 +129,49 @@ blockquote {
 }
 
 section,
+nav,
 .post,
 footer {
   margin-bottom: $gutter;
 }
 
 header {
-  padding: $gutter 0 $gutter;
+  padding-top: $gutter * 2;
+}
+
+nav {
+  @include background-image(linear-gradient(to bottom, white 50%, transparent));
+  @include position(fixed, 0 0 null 0);
+}
+
+a.nav-item {
+  @extend %icon;
+  @include underlined-color(none);
+  display: inline-block;
+  font-weight: bold;
+  margin-right: 1em;
+
+  &.is-selected {
+    box-shadow: inset 0 3px 0 $colorLink;
+    color: $colorLink;
+  }
+
+  &:nth-child(1) {
+    @extend .icon-blog;
+  }
+
+  &:nth-child(2) {
+    @extend .icon-about;
+  }
+
+  &:nth-child(3) {
+    @extend .icon-work;
+  }
+
+  &:before {
+    margin-right: 5px;
+    top: 1px;
+  }
 }
 
 footer {
