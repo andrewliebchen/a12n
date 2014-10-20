@@ -425,7 +425,7 @@ body {
 
 body {
   padding: 0 2.74614%;
-  padding-top: 4em;
+  padding-top: 5em;
 }
 
 h1,
@@ -443,18 +443,6 @@ h5 {
   padding-bottom: 0.5em;
 }
 
-h1 a,
-h1 a:hover,
-h2 a,
-h2 a:hover {
-  background-image: none;
-}
-
-h4 a {
-  background-size: 1px 1px;
-  background-position: 0 1.1em;
-}
-
 p,
 ul,
 ol {
@@ -462,25 +450,17 @@ ol {
 }
 
 a {
-  background-repeat: repeat-x;
-  text-decoration: none;
-  background-size: 1px 1px;
-  background-position: 0 1.1em;
-  background-image: -webkit-linear-gradient( top , transparent 50%, #222222 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #222222 50%);
   -webkit-transition: all 0.05s linear;
   -moz-transition: all 0.05s linear;
   transition: all 0.05s linear;
   color: #222222;
+  text-decoration: none;
 }
 a:hover {
-  background-image: -webkit-linear-gradient( top , transparent 50%, #0074d9 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #0074d9 50%);
   color: #0074d9;
+  text-decoration: underline;
 }
 a:active {
-  background-image: -webkit-linear-gradient( top , transparent 50%, #66abe8 50%);
-  background-image: linear-gradient(to bottom, transparent 50%, #66abe8 50%);
   -webkit-transition: none;
   -moz-transition: none;
   transition: none;
@@ -548,17 +528,20 @@ blockquote {
   right: 0;
   left: 0;
   background-color: white;
-  font-weight: 200;
   line-height: 3em;
-  text-transform: uppercase;
 }
 .header .width-wrapper {
   border-bottom: 1px solid #f0f0f0;
+}
+.header a:hover {
+  text-decoration: none;
 }
 
 .brand {
   float: left;
   font-size: inherit;
+  color: #aaaaaa;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -566,16 +549,16 @@ blockquote {
 }
 
 a.nav-item {
-  background-image: none;
   display: inline-block;
   margin-left: 1em;
+  color: #aaaaaa;
 }
-a.nav-item.is-selected {
+a.nav-item:hover {
   color: #0074d9;
 }
-a.nav-item:before {
-  margin-right: 5px;
-  top: 1px;
+a.nav-item.is-selected {
+  color: #222222;
+  cursor: default;
 }
 
 .post {

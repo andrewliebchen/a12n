@@ -16,24 +16,6 @@ $colorLink: #0074D9;
 
 $fontFamilyBase: $helvetica;
 
-@mixin underlined-base {
-  background-repeat: repeat-x;
-  text-decoration: none;
-}
-
-@mixin underlined-params($width: 1px, $position: 1.1em) {
-  background-size: $width $width;
-  background-position: 0 $position;
-}
-
-@mixin underlined-color($color: $colorText) {
-  @if $color == "none" {
-    background-image: none;
-  } @else {
-    @include background-image(linear-gradient(to bottom, transparent 50%, $color 50%));
-  }
-}
-
 html,
 body {
   font-family: $fontFamilyBase;
@@ -44,7 +26,7 @@ body {
 
 body {
   @include pad(0 default);
-  padding-top: 4em;
+  padding-top: 5em;
 }
 
 h1,
@@ -62,20 +44,6 @@ h5 {
   padding-bottom: 0.5em;
 }
 
-h1,
-h2 {
-  a,
-  a:hover {
-    @include underlined-color(none);
-  }
-}
-
-h4 {
-  a {
-    @include underlined-params($position: 1.1em);
-  }
-}
-
 p,
 ul,
 ol {
@@ -83,20 +51,17 @@ ol {
 }
 
 a {
-  @include underlined-base;
-  @include underlined-params;
-  @include underlined-color;
   @include transition(all 0.05s linear);
   color: $colorText;
+  text-decoration: none;
 
   &:hover {
-    @include underlined-color($colorLink);
     color: $colorLink;
+    text-decoration: underline;
   }
 
   &:active {
     $color: tint($colorLink, 40%);
-    @include underlined-color($color);
     @include transition(none);
     color: $color;
   }
@@ -156,18 +121,22 @@ blockquote {
 .header {
   @include position(fixed, 0 0 null 0);
   background-color: white;
-  font-weight: 200;
   line-height: 3em;
-  text-transform: uppercase;
 
   .width-wrapper {
     border-bottom: 1px solid $colorLight;
+  }
+
+  a:hover {
+    text-decoration: none;
   }
 }
 
 .brand {
   float: left;
   font-size: inherit;
+  color: $colorMid;
+  text-transform: uppercase;
 }
 
 .nav {
@@ -175,17 +144,17 @@ blockquote {
 }
 
 a.nav-item {
-  @include underlined-color(none);
   display: inline-block;
   margin-left: 1em;
+  color: $colorMid;
 
-  &.is-selected {
+  &:hover {
     color: $colorLink;
   }
 
-  &:before {
-    margin-right: 5px;
-    top: 1px;
+  &.is-selected {
+    color: $colorText;
+    cursor: default;
   }
 }
 
