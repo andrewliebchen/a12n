@@ -1,21 +1,25 @@
-// Get today's date in a useful format
-var today = new Date();
-var dd = today.getDate();
-var mm = today.getMonth() + 1;
-var yyyy = today.getFullYear();
-
-if( dd<10 ){
-  dd = '0' + dd;
-}
-
-if( mm<10 ){
-    mm = '0' + mm;
-}
-
-today = yyyy + '-' + dd + '-' + mm;
-
-// Get on with the Grunt
 module.exports = function(grunt) {
+  "use strict";
+
+  require('load-grunt-tasks')(grunt);
+  require('time-grunt')(grunt);
+
+  // Get today's date in a useful format
+  var today = new Date();
+  var dd = today.getDate();
+  var mm = today.getMonth() + 1;
+  var yyyy = today.getFullYear();
+
+  if(dd < 10) {
+    dd = '0' + dd;
+  };
+
+  if(mm < 10) {
+    mm = '0' + mm;
+  };
+
+  today = yyyy + '-' + dd + '-' + mm;
+
   grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
 
@@ -65,10 +69,8 @@ module.exports = function(grunt) {
       tasks: ['sass', 'jekyll'],
       options: {
         spawn: false,
-      },
-      options: {
         livereload: true,
-      },
+      }
     },
 
     connect: {
@@ -88,17 +90,15 @@ module.exports = function(grunt) {
       options: {
           logConcurrentOutput: true
       }
+    },
+
+    availabletasks: {
+      tasks: {}
     }
   });
 
-  grunt.loadNpmTasks('grunt-localscreenshots');
-  grunt.loadNpmTasks('grunt-jekyll');
-  grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-contrib-connect');
-  grunt.loadNpmTasks('grunt-concurrent');
-
-  grunt.registerTask('default', ['localscreenshots']);
+  grunt.registerTask('default', ['availabletasks']);
+  grunt.registerTask('screenshot', ['localscreenshots']);
   grunt.registerTask('build', ['sass', 'jekyll']);
   grunt.registerTask('serve', ['build', 'concurrent']);
 };
