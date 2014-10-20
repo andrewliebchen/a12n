@@ -77,7 +77,8 @@ module.exports = function(grunt) {
           port: 4000,
           hostname: 'localhost',
           base: './_site',
-          keepalive: true
+          keepalive: true,
+          livereload: true
         }
       }
     },

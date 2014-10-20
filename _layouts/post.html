@@ -2,11 +2,13 @@
 layout: default
 ---
 
-<section class="post">
+<section class="section post">
   <article>
     <h2>{{ page.title }}</h2>
     {{ content }}
-    <p><small>Posted <time>{{ page.date | timeago }}</time></small></p>
+    <p>
+      <small>Posted <time>{{ page.date | timeago }}</time></small>
+    </p>
   </article>
   <div class="changelog">
     <h3>Changelog</h3>

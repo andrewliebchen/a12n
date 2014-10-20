@@ -21,7 +21,7 @@ $fontFamilyBase: $helvetica;
   text-decoration: none;
 }
 
-@mixin underlined-params($width: 1px, $position: 1em) {
+@mixin underlined-params($width: 1px, $position: 1.1em) {
   background-size: $width $width;
   background-position: 0 $position;
 }
@@ -44,6 +44,7 @@ body {
 
 body {
   @include pad(0 default);
+  padding-top: 4em;
 }
 
 h1,
@@ -52,6 +53,13 @@ h3,
 h4,
 h5 {
   margin: 0;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  padding-bottom: 0.5em;
 }
 
 h1,
@@ -71,7 +79,7 @@ h4 {
 p,
 ul,
 ol {
-  margin: 0 0 $gutter;
+  margin: 0 0 1em;
 }
 
 a {
@@ -122,36 +130,56 @@ blockquote {
   margin: 0;
 }
 
+@mixin selection {
+  background-color: $colorLink;
+  color: white;
+}
+
+::-moz-selection {
+  @include selection;
+}
+::selection {
+  @include selection;
+}
+
 // LAYOUT
 .width-wrapper {
   @include outer-container;
 }
 
-header,
-section,
-nav,
+.section,
 .post,
-footer {
+.footer {
   margin-bottom: $gutter;
 }
 
-header {
-  padding-top: $gutter * 2;
+.header {
+  @include position(fixed, 0 0 null 0);
+  background-color: white;
+  font-weight: 200;
+  line-height: 3em;
+  text-transform: uppercase;
+
+  .width-wrapper {
+    border-bottom: 1px solid $colorLight;
+  }
 }
 
-nav {
-  @include background-image(linear-gradient(to bottom, white 50%, transparent));
-  @include position(fixed, 0 0 null 0);
+.brand {
+  float: left;
+  font-size: inherit;
+}
+
+.nav {
+  float: right;
 }
 
 a.nav-item {
   @include underlined-color(none);
   display: inline-block;
-  font-weight: bold;
-  margin-right: 1em;
+  margin-left: 1em;
 
   &.is-selected {
-    box-shadow: inset 0 3px 0 $colorLink;
     color: $colorLink;
   }
 
@@ -161,7 +189,20 @@ a.nav-item {
   }
 }
 
-footer {
+.post {
+  margin-bottom: 2em;
+}
+
+.changelog {
+  background-color: $colorLight;
+  border-radius: 3px;
+  color: $colorMid;
+  font-family: $monospace;
+  margin-top: 3em;
+  padding: 1em 1.5em 0.5em;
+}
+
+.footer {
   padding-top: $gutter;
 }
 
