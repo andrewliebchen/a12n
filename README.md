@@ -13,10 +13,12 @@ It's ugly now, but I'm working on it (and writing about the work in the meantime
 
 #### Code languages and libraries
 * [CSS](http://www.w3.org/Style/CSS/Overview.en.html)
+* [Sass](http://sass-lang.com/) An extension language of CSS.
+* [Libsass](http://libsass.org/) The C implementation of the Sass compiler.
 * [HTML](http://www.w3.org/html/)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Jekyll](http://jekyllrb.com)
-* [Grunt](http://gruntjs.com) is a Javascript task runner.
+* [Grunt](http://gruntjs.com) A Javascript task runner.
 * [grunt-localscreeshots](https://www.npmjs.org/package/grunt-localscreenshots) automatically creates an image history of this site's development.
 
 ### Hosting

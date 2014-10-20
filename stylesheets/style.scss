@@ -1,9 +1,9 @@
 $colorDev: rgb(217, 88, 88);
 
-@import "../bower_components/bourbon/dist/bourbon";
+@import "bourbon";
 @import "helpers/grid-settings";
-@import "../bower_components/neat/app/assets/stylesheets/neat";
-@import "../bower_components/normalize-scss/normalize";
+@import "neat";
+@import "bower_components/_normalize.scss/normalize";
 
 @import "helpers/development";
 

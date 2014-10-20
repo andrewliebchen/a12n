@@ -51,7 +51,8 @@ module.exports = function(grunt) {
     sass: {
       dist: {
         options: {
-          style: 'expanded'
+          style: 'expanded',
+          includePaths: require('node-neat').with('bower_components')
         },
         files: {
           './stylesheets/style.css': './stylesheets/style.scss'

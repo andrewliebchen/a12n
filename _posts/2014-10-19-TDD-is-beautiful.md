@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "TDD is beautiful"
-changelog: "Improve the Gruntfile, remove development markings, and redesign the header."
+changelog: "Improve the Gruntfile, switch to Libsass (yay), remove development markings, and redesign the header."
 ---
 Test-driven development (TDD) is a beautiful idea. [TDD](http://en.wikipedia.org/wiki/Test-driven_development) is a software development practice in which simple tests that represent desired functionality are written first, then software is developed to fulfill those tests. The tests are automated and serve as a quality assurance as the focus of the development team moves on to other features.
 
