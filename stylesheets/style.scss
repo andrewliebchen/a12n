@@ -35,6 +35,17 @@ h3,
 h4,
 h5 {
   margin: 0;
+
+  a {
+    &,
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:hover {
+      color: $colorLink;
+    }
+  }
 }
 
 h2,
@@ -53,11 +64,9 @@ ol {
 a {
   @include transition(all 0.05s linear);
   color: $colorText;
-  text-decoration: none;
 
   &:hover {
     color: $colorLink;
-    text-decoration: underline;
   }
 
   &:active {
@@ -133,9 +142,9 @@ blockquote {
 }
 
 .brand {
+  color: $colorMid;
   float: left;
   font-size: inherit;
-  color: $colorMid;
   text-transform: uppercase;
 }
 
@@ -144,9 +153,10 @@ blockquote {
 }
 
 a.nav-item {
+  color: $colorMid;
   display: inline-block;
   margin-left: 1em;
-  color: $colorMid;
+  text-decoration: none;
 
   &:hover {
     color: $colorLink;
@@ -172,7 +182,19 @@ a.nav-item {
 }
 
 .footer {
-  padding-top: $gutter;
+  padding-top: 1em;
+  margin-top: 2em;
+  border-top: 1px solid $colorLight;
+  text-align: center;
+
+  &,
+  a {
+    color: $colorMid;
+  }
+
+  a:hover {
+    color: $colorLink;
+  }
 }
 
 // VIEWS

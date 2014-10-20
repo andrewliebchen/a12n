@@ -435,6 +435,24 @@ h4,
 h5 {
   margin: 0;
 }
+h1 a, h1 a:hover,
+h2 a,
+h2 a:hover,
+h3 a,
+h3 a:hover,
+h4 a,
+h4 a:hover,
+h5 a,
+h5 a:hover {
+  text-decoration: none;
+}
+h1 a:hover,
+h2 a:hover,
+h3 a:hover,
+h4 a:hover,
+h5 a:hover {
+  color: #0074d9;
+}
 
 h2,
 h3,
@@ -454,11 +472,9 @@ a {
   -moz-transition: all 0.05s linear;
   transition: all 0.05s linear;
   color: #222222;
-  text-decoration: none;
 }
 a:hover {
   color: #0074d9;
-  text-decoration: underline;
 }
 a:active {
   -webkit-transition: none;
@@ -538,9 +554,9 @@ blockquote {
 }
 
 .brand {
+  color: #aaaaaa;
   float: left;
   font-size: inherit;
-  color: #aaaaaa;
   text-transform: uppercase;
 }
 
@@ -549,9 +565,10 @@ blockquote {
 }
 
 a.nav-item {
+  color: #aaaaaa;
   display: inline-block;
   margin-left: 1em;
-  color: #aaaaaa;
+  text-decoration: none;
 }
 a.nav-item:hover {
   color: #0074d9;
@@ -575,7 +592,17 @@ a.nav-item.is-selected {
 }
 
 .footer {
-  padding-top: 2em;
+  padding-top: 1em;
+  margin-top: 2em;
+  border-top: 1px solid #f0f0f0;
+  text-align: center;
+}
+.footer,
+.footer a {
+  color: #aaaaaa;
+}
+.footer a:hover {
+  color: #0074d9;
 }
 
 .post-excerpt {
