@@ -16,13 +16,12 @@ It's ugly now, but I'm working on it (and writing about the work in the meantime
 * [HTML](http://www.w3.org/html/)
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Jekyll](http://jekyllrb.com)
-* [Grunt](http://gruntjs.com) is a Javascript task runner. Currently using it with [grunt-localscreeshots](https://www.npmjs.org/package/grunt-localscreenshots) to automatically create an image history of this site's development.
+* [Grunt](http://gruntjs.com) is a Javascript task runner.
+* [grunt-localscreeshots](https://www.npmjs.org/package/grunt-localscreenshots) automatically creates an image history of this site's development.
 
 ### Hosting
 * [Github Pages](http://https://pages.github.com)
 
-## Note to self
-In development, start the Jekyll server with `bundle exec jekyll serve --watch --baseurl=`
-
-## To Do
-* Deploy (or at least build) Jekyll with Grunt.
+## Getting started
+During developement, run `$ grunt serve` to start the Jekyll server, watch Sass for changes to compile to CSS. `$ make` will deploy to Github Pages.
+`$ grunt screenshot` will take a screenshot of the homepage and save it as an image to `images/screenshots/`.
