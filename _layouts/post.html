@@ -10,8 +10,10 @@ layout: default
       <small>Posted <time>{{ page.date | timeago }}</time></small>
     </p>
   </article>
-  <div class="changelog">
-    <h3>Changelog</h3>
-    <p>{{ page.changelog }}</p>
-  </div>
+  {% if page.changelog %}
+    <div class="changelog">
+      <h3>Changelog</h3>
+      <p>{{ page.changelog }}</p>
+    </div>
+  {% endif %}
 </section>
