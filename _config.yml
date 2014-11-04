@@ -2,7 +2,6 @@ name: Andrew Liebchen
 markdown: redcarpet
 highlighter: pygments
 baseurl: "http://andrewliebchen.github.io/a12n"
-gems: [jekyll/timeago]
 navigation:
  - title: Blog
    url: /index.html

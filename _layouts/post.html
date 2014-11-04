@@ -7,7 +7,7 @@ layout: default
     <h2>{{ page.title }}</h2>
     {{ content }}
     <p>
-      <small>Posted <time>{{ page.date | timeago }}</time></small>
+      <small>Posted <time>{{ page.date | date: "%A, %B %-d, %Y" }}</time></small>
     </p>
   </article>
   {% if page.changelog %}
