@@ -19,7 +19,7 @@ It's ugly now, but I'm working on it (and writing about the work in the meantime
 * [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 * [Jekyll](http://jekyllrb.com)
 * [Grunt](http://gruntjs.com) A Javascript task runner.
-* [grunt-localscreeshots](https://www.npmjs.org/package/grunt-localscreenshots) automatically creates an image history of this site's development.
+* [grunt-localscreenshots](https://www.npmjs.org/package/grunt-localscreenshots) automatically creates an image history of this site's development.
 
 ### Hosting
 * [Github Pages](http://https://pages.github.com)
