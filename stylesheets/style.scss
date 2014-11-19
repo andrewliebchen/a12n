@@ -20,8 +20,8 @@ html,
 body {
   font-family: $fontFamilyBase;
   color: $colorText;
-  font-size: 16px;
-  line-height: $gutter;
+  font-size: 18px;
+  line-height: 1.6;
 }
 
 body {
@@ -131,10 +131,6 @@ blockquote {
   @include position(fixed, 0 0 null 0);
   background-color: white;
   line-height: 3em;
-
-  .width-wrapper {
-    border-bottom: 1px solid $colorLight;
-  }
 
   a:hover {
     text-decoration: none;

@@ -314,8 +314,8 @@ table {
 html, body {
   font-family: "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
   color: #222;
-  font-size: 16px;
-  line-height: 2em; }
+  font-size: 18px;
+  line-height: 1.6; }
 
 body {
   padding: 0 2.7461357194%;
@@ -376,7 +376,7 @@ blockquote {
   color: white; }
 
 .width-wrapper {
-  max-width: 45em;
+  max-width: 37.5em;
   margin-left: auto;
   margin-right: auto; }
   .width-wrapper:after {
@@ -394,8 +394,6 @@ blockquote {
   left: 0;
   background-color: white;
   line-height: 3em; }
-  .header .width-wrapper {
-    border-bottom: 1px solid #F0F0F0; }
   .header a:hover {
     text-decoration: none; }
 

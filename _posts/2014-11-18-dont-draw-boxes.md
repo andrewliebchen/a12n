@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Don't draw boxes"
+changelog: "Decrease line width and increase font size and line height to promote better useability."
 ---
 
 I spend a lot of time drawing boxes. Since I design things that are made for the internet, and things on the internet are made of boxes, I have to draw boxes on paper, whiteboards, and computer screens to communicate with everyone else who has an interest in how those boxes look and function. I know something about drawing boxes, and its one of the few things I'm confident I'm pretty good at.
