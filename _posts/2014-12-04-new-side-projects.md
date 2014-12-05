@@ -3,11 +3,11 @@ layout: post
 title:  "New side projects"
 ---
 
-I've wrapped up a pair of side projects over Thanksgiving. The first is Reacticons, a small file icon set for [ReactJS](http://facebook.github.io/react/) that uses `SVG`s to render resolution-independent vector icons. Plus, they're pretty cute.
+I've wrapped up a pair of side projects over Thanksgiving. The first is Reacticons, a small file icon set for [ReactJS](http://facebook.github.io/react/) that uses `SVG`s to render resolution-independent vector icons. They're pretty cute.
 
 ![Reacticons landing page]({{ site.url }}/images/posts/reacticons-1.png)
 
-ReactJS is a front-end templating framework developed for Facebook, and it's pretty great. It combines behavior (`JS`) and structure (markup) into one file, allows you to create reusable and stateful components, and does it all with an HTML like `JS` syntax called `JSX`. As a designer, I love it because it is pretty easy grokk, but I'll probably write more about that in a later post.
+ReactJS is a front-end templating framework developed for Facebook, and it's great. It combines behavior (`JS`) and structure (markup) into one file, allows you to create reusable and stateful components, and does it all with an HTML like `JS` syntax called `JSX`. As a designer, I love it because it is pretty easy grokk, but I'll probably write more about that in a later post.
 
 ![Reacticons UI harness]({{ site.url }}/images/posts/reacticons-2.png)
 

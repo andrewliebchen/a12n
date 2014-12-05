@@ -93,6 +93,13 @@ small {
   color: $colorMid;
 }
 
+code {
+  background-color: $colorLight;
+  border-radius: 3px;
+  color: lighten($colorDark, 20%);
+  padding: 0 0.2em;
+}
+
 img {
   max-height: 100%;
   max-width: 100%;
@@ -172,9 +179,10 @@ a.nav-item {
   background-color: $colorLight;
   border-radius: 3px;
   color: $colorMid;
-  font-family: $monospace;
+  color: lighten($colorDark, 20%);
   margin-top: 3em;
   padding: 1em 1.5em 0.5em;
+  font-family: $monospace;
 }
 
 .footer {

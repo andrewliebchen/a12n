@@ -358,6 +358,12 @@ ul {
 small {
   color: #AAA; }
 
+code {
+  background-color: #F0F0F0;
+  border-radius: 3px;
+  color: #555555;
+  padding: 0 0.2em; }
+
 img {
   max-height: 100%;
   max-width: 100%; }
@@ -424,9 +430,10 @@ a.nav-item {
   background-color: #F0F0F0;
   border-radius: 3px;
   color: #AAA;
-  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace;
+  color: #555555;
   margin-top: 3em;
-  padding: 1em 1.5em 0.5em; }
+  padding: 1em 1.5em 0.5em;
+  font-family: "Bitstream Vera Sans Mono", Consolas, Courier, monospace; }
 
 .footer {
   padding-top: 1em;
