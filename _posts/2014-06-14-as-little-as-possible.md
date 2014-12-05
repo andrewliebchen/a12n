@@ -22,5 +22,5 @@ Grids in graphic design are [old](http://www.nps.gov/history/history/online_book
 
 Baseline grids help determine how vertical elements align. The baseline grid for this site is demarcated by faint, red horizontal lines. Each grid line is two times the height of the base font size (or `2em`). We've got a nice, strong vertical rythmn by using the baseline measure for all vertical elements, from the `line-height` between text to the `margin` between paragraphs.
 
-Column girds help determine how horizontal elements align. You'll notice there are 12 columns, demarcated by the faint, red solid columns. I could write a whole post about how much I love base-twelve for design: but let's just say for now it's a convienient number because you can easily divide the page into thirds (four columns), quarters (three columns), and halves (six columns). Try to do that with ten columns...
+Column girds help determine how horizontal elements align. You'll notice there are 12 columns, demarcated by the faint, red solid columns. I could write a whole post about how much I love base-twelve for design: but let's just say for now it's a convenient number because you can easily divide the page into thirds (four columns), quarters (three columns), and halves (six columns). Try to do that with ten columns...
 

@@ -7,7 +7,7 @@ It sounds hyperbolic, but the design and development of a web property is a craf
 
 So, how is web design and development a craft? Almost everything on the web is bespoke. Sure, there's automation, frameworks, UI kits, and great tools, but your grandpa in his workshop also has power tools, jigs, and Home Depot, yet you wouldn't _dare_ say that trivet he made for your birthday _isn't_ handcrafted.  Would you?
 
-That "handcrafting" websites is a thing at all is because the medium of the internet obscures the hand of its creator. Hard-working web designers and developers have to practically stand on their aeron chairs and shout, "it looks like just a bunch of boxes, but someone had to actuallty \*write\* those nice gradients into all those buttons!"
+That "handcrafting" websites is a thing at all is because the medium of the internet obscures the hand of its creator. Hard-working web designers and developers have to practically stand on their aeron chairs and shout, "it looks like just a bunch of boxes, but someone had to actually \*write\* those nice gradients into all those buttons!"
 
 ![Farnsworth House](http://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Farnsworth_House_2006.jpg/1024px-Farnsworth_House_2006.jpg)
 
@@ -15,7 +15,7 @@ Architecture has been through its machine aesthetic phase. There's a great short
 
 Mies opted for a time-consuming process called _plug welding_ to join the pieces of the Farnsworth House's frame. Caldwell explains it best:
 
-> Plug welding is an elaborate process: steel erectors first drilll the columns with erector seats; they then place the perimeter beam on these seats, shim the beam level, and clamp it secure; next, welders plug the vacant column holes, fusing the column to the beam; and finally, finishers remove the erection seats and sand all surfaces smooth.
+> Plug welding is an elaborate process: steel erectors first drill the columns with erector seats; they then place the perimeter beam on these seats, shim the beam level, and clamp it secure; next, welders plug the vacant column holes, fusing the column to the beam; and finally, finishers remove the erection seats and sand all surfaces smooth.
 
 Got that? Holes are drilled in the column, the beam is clamped to the column, the welder fills the holes with molten steel, fusing the column and beam, then the welds are smoothed. Plug welding is a process that erases itself.
 
