@@ -60,6 +60,11 @@ module.exports = function(grunt) {
       }
     },
 
+    autoprefixer: {
+      src:  './stylesheets/style.css',
+      dest: './stylesheets/style.css'
+    },
+
     watch: {
       files: [
         './stylesheets/**/*.scss',
@@ -67,7 +72,7 @@ module.exports = function(grunt) {
         './*.html',
         './_posts/*.md'
       ],
-      tasks: ['sass', 'jekyll'],
+      tasks: ['build'],
       options: {
         spawn: false,
         livereload: true,
@@ -100,6 +105,6 @@ module.exports = function(grunt) {
 
   grunt.registerTask('default', ['availabletasks']);
   grunt.registerTask('screenshot', ['localscreenshots']);
-  grunt.registerTask('build', ['sass', 'jekyll']);
+  grunt.registerTask('build', ['sass', 'autoprefixer', 'jekyll']);
   grunt.registerTask('serve', ['build', 'concurrent']);
 };

@@ -1,20 +1,19 @@
 $colorDev: rgb(217, 88, 88);
 
-@import "bourbon";
-@import "helpers/grid-settings";
-@import "neat";
-@import "bower_components/_normalize.scss/normalize";
-
+@import "helpers/normalize";
 @import "helpers/development";
 
-$colorDark: #222;
-$colorMid:  #AAA;
+$colorDark:  #333;
+$colorMid:   #AAA;
 $colorLight: #F0F0F0;
 
 $colorText: $colorDark;
 $colorLink: #0074D9;
 
-$fontFamilyBase: $helvetica;
+$fontFamilyBase: "helvetica neue", helvetica, arial, sans-serif;
+$fontFamilyMonospace: "source code pro", inconsolata, consolas, monospace;
+
+$maxWidth: 40em;
 
 html,
 body {
@@ -25,8 +24,7 @@ body {
 }
 
 body {
-  @include pad(0 default);
-  padding-top: 5em;
+  padding-top: 4em;
 }
 
 h1,
@@ -62,7 +60,7 @@ ol {
 }
 
 a {
-  @include transition(all 0.05s linear);
+  transition: all 0.05s linear;
   color: $colorText;
 
   &:hover {
@@ -70,8 +68,8 @@ a {
   }
 
   &:active {
-    $color: tint($colorLink, 40%);
-    @include transition(none);
+    $color: lighten($colorLink, 20%);
+    transition: none;
     color: $color;
   }
 }
@@ -81,7 +79,7 @@ ol {
   padding: 0;
 
   li {
-    @include shift(1);
+    margin-left: 1em;
   }
 }
 
@@ -107,7 +105,7 @@ img {
 
 blockquote {
   color: $colorMid;
-  font-family: $monospace;
+  font-family: $fontFamilyMonospace;
   margin: 0;
 }
 
@@ -125,17 +123,23 @@ blockquote {
 
 // LAYOUT
 .width-wrapper {
-  @include outer-container;
+  @include clearfix;
+  max-width: $maxWidth;
+  margin: 0 auto;
+  padding: 0 3em;
 }
 
 .section,
 .post,
 .footer {
-  margin-bottom: $gutter;
+  margin-bottom: 2em;
 }
 
 .header {
-  @include position(fixed, 0 0 null 0);
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
   background-color: white;
   line-height: 3em;
 
@@ -182,7 +186,7 @@ a.nav-item {
   color: lighten($colorDark, 20%);
   margin-top: 3em;
   padding: 1em 1.5em 0.5em;
-  font-family: $monospace;
+  font-family: $fontFamilyMonospace;
 }
 
 .footer {
