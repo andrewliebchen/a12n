@@ -15,16 +15,14 @@ $fontFamilyMonospace: "source code pro", inconsolata, consolas, monospace;
 
 $maxWidth: 40em;
 
+$linkTransition: 0.05s linear;
+
 html,
 body {
   font-family: $fontFamilyBase;
   color: $colorText;
   font-size: 18px;
   line-height: 1.6;
-}
-
-body {
-  padding-top: 4em;
 }
 
 h1,
@@ -60,7 +58,7 @@ ol {
 }
 
 a {
-  transition: all 0.05s linear;
+  transition: all $linkTransition;
   color: $colorText;
 
   &:hover {
@@ -136,12 +134,8 @@ blockquote {
 }
 
 .header {
-  position: fixed;
-  top: 0;
-  right: 0;
-  left: 0;
-  background-color: white;
   line-height: 3em;
+  margin-bottom: 1em;
 
   a:hover {
     text-decoration: none;
@@ -202,6 +196,61 @@ a.nav-item {
 
   a:hover {
     color: $colorLink;
+  }
+}
+
+// PROJECTS
+.projects {
+  border-radius: 3px;
+  background-color: lighten(#F012BE, 45%);
+  display: flex;
+  margin: 0 -3em 2em;
+  overflow: hidden;
+}
+
+.project {
+  cursor: pointer;
+  flex: 1;
+  height: $maxWidth / 3;
+  position: relative;
+
+  &::after {
+    color: white;
+    content: attr(data-title);
+    font-size: 1.8em;
+    font-weight: bold;
+    line-height: 0.8;
+    opacity: 0;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: opacity $linkTransition;
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: $colorLink;
+
+    &::after {
+      opacity: 1;
+    }
+  }
+}
+
+.project-icon {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate3d(-50%, -50%, 0);
+  transition: all 0.4s linear;
+}
+
+.project-shape {
+  fill: rgba(#F012BE, 0.2);
+
+  .project:hover & {
+    fill: darken($colorLink, 10%);
   }
 }
 
