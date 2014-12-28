@@ -61,8 +61,10 @@ module.exports = function(grunt) {
     },
 
     autoprefixer: {
-      src:  './stylesheets/style.css',
-      dest: './stylesheets/style.css'
+      sass: {
+        src:  './stylesheets/style.css',
+        dest: './stylesheets/style.css'
+      }
     },
 
     watch: {
