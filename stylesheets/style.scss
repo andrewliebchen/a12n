@@ -10,7 +10,7 @@ $colorLight: #F0F0F0;
 $colorText: $colorDark;
 $colorLink: #0074D9;
 
-$fontFamilyBase: "helvetica neue", helvetica, arial, sans-serif;
+$fontFamilyBase: roboto, "helvetica neue", helvetica, arial, sans-serif;
 $fontFamilyMonospace: "source code pro", inconsolata, consolas, monospace;
 
 $maxWidth: 40em;
@@ -145,6 +145,8 @@ blockquote {
   font-size: 4em;
   text-align: center;
   margin-top: -0.3em;
+  font-weight: 900;
+  letter-spacing: -0.02em;
 
   a {
     color: inherit;
