@@ -2,8 +2,3 @@ name: Andrew Liebchen
 markdown: redcarpet
 highlighter: pygments
 baseurl: "http://andrewliebchen.github.io/a12n"
-navigation:
- - title: Blog
-   url: /index.html
- - title: About
-   url: /about.html

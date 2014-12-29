@@ -310,7 +310,8 @@ html, body {
   line-height: 1.6; }
 
 h1, h2, h3, h4, h5 {
-  margin: 0; }
+  margin: 0;
+  line-height: 1; }
   h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5 a:hover {
     text-decoration: none; }
   h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
@@ -382,28 +383,15 @@ blockquote {
 .header {
   line-height: 3em;
   margin-bottom: 1em; }
-  .header a:hover {
-    text-decoration: none; }
 
 .brand {
-  color: #AAA;
-  float: left;
-  font-size: inherit;
-  text-transform: uppercase; }
-
-.nav {
-  float: right; }
-
-a.nav-item {
-  color: #AAA;
-  display: inline-block;
-  margin-left: 1em;
-  text-decoration: none; }
-  a.nav-item:hover {
-    color: #0074D9; }
-  a.nav-item.is-selected {
-    color: #333;
-    cursor: default; }
+  color: #F0F0F0;
+  text-transform: uppercase;
+  font-size: 4em;
+  text-align: center;
+  margin-top: -0.3em; }
+  .brand a {
+    color: inherit; }
 
 .post {
   margin-bottom: 2em; }
@@ -418,9 +406,10 @@ a.nav-item {
   font-family: "source code pro", inconsolata, consolas, monospace; }
 
 .footer {
-  padding-top: 1em;
-  margin-top: 2em;
-  border-top: 1px solid #F0F0F0;
+  padding: 1em 1em 0.5em;
+  background-color: #F0F0F0;
+  color: #AAA;
+  border-radius: 3px;
   text-align: center; }
   .footer, .footer a {
     color: #AAA; }
@@ -434,7 +423,8 @@ a.nav-item {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin: 0 -3em 2em;
+  margin-left: -3em;
+  margin-right: -3em;
   overflow: hidden; }
 
 .project {

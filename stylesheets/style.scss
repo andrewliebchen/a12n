@@ -31,6 +31,7 @@ h3,
 h4,
 h5 {
   margin: 0;
+  line-height: 1;
 
   a {
     &,
@@ -136,36 +137,17 @@ blockquote {
 .header {
   line-height: 3em;
   margin-bottom: 1em;
-
-  a:hover {
-    text-decoration: none;
-  }
 }
 
 .brand {
-  color: $colorMid;
-  float: left;
-  font-size: inherit;
+  color: $colorLight;
   text-transform: uppercase;
-}
+  font-size: 4em;
+  text-align: center;
+  margin-top: -0.3em;
 
-.nav {
-  float: right;
-}
-
-a.nav-item {
-  color: $colorMid;
-  display: inline-block;
-  margin-left: 1em;
-  text-decoration: none;
-
-  &:hover {
-    color: $colorLink;
-  }
-
-  &.is-selected {
-    color: $colorText;
-    cursor: default;
+  a {
+    color: inherit;
   }
 }
 
@@ -184,9 +166,10 @@ a.nav-item {
 }
 
 .footer {
-  padding-top: 1em;
-  margin-top: 2em;
-  border-top: 1px solid $colorLight;
+  padding: 1em 1em 0.5em;
+  background-color: $colorLight;
+  color: $colorMid;
+  border-radius: 3px;
   text-align: center;
 
   &,
@@ -204,7 +187,8 @@ a.nav-item {
   border-radius: 3px;
   background-color: lighten(#F012BE, 45%);
   display: flex;
-  margin: 0 -3em 2em;
+  margin-left: -3em;
+  margin-right: -3em;
   overflow: hidden;
 }
 

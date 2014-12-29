@@ -12,16 +12,6 @@
   <header class="header">
     <div class="width-wrapper">
       <h1 class="brand"><a href="/">{{ site.name }}</a></h1>
-      <nav class="nav">
-        {% for link in site.navigation %}
-          {% assign current = nil %}
-          {% if page.url contains link.url %}
-            {% assign current = 'is-selected' %}
-          {% endif %}
-          <a href="{{ link.url }}" class="nav-item {{ current }}">{{ link.title }}</a>
-        {% endfor %}
-        <a href="http://dribbble.com/andrewliebchen" class="nav-item" target="_blank">Work on Dribbble</a>
-      </nav>
     </div>
   </header>
   <div class="content width-wrapper">
