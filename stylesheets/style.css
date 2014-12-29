@@ -304,14 +304,14 @@ table {
   border-spacing: 0; }
 
 html, body {
-  font-family: roboto, "helvetica neue", helvetica, arial, sans-serif;
   color: #333;
+  font-family: roboto, "helvetica neue", helvetica, arial, sans-serif;
   font-size: 18px;
   line-height: 1.6; }
 
 h1, h2, h3, h4, h5 {
-  margin: 0;
-  line-height: 1; }
+  line-height: 1;
+  margin: 0; }
   h1 a, h1 a:hover, h2 a, h2 a:hover, h3 a, h3 a:hover, h4 a, h4 a:hover, h5 a, h5 a:hover {
     text-decoration: none; }
   h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, h5 a:hover {
@@ -324,15 +324,15 @@ p, ul, ol {
   margin: 0 0 1em; }
 
 a {
+  color: #333;
   -webkit-transition: all 0.05s linear;
-          transition: all 0.05s linear;
-  color: #333; }
+          transition: all 0.05s linear; }
   a:hover {
     color: #0074D9; }
   a:active {
+    color: #40a6ff;
     -webkit-transition: none;
-            transition: none;
-    color: #40a6ff; }
+            transition: none; }
 
 ul, ol {
   padding: 0; }
@@ -369,8 +369,8 @@ blockquote {
   color: white; }
 
 .width-wrapper {
-  max-width: 40em;
   margin: 0 auto;
+  max-width: 40em;
   padding: 0 3em; }
   .width-wrapper::after {
     clear: both;
@@ -386,12 +386,12 @@ blockquote {
 
 .brand {
   color: #F0F0F0;
-  text-transform: uppercase;
   font-size: 4em;
-  text-align: center;
-  margin-top: -0.3em;
   font-weight: 900;
-  letter-spacing: -0.02em; }
+  letter-spacing: -0.02em;
+  margin-top: -0.3em;
+  text-align: center;
+  text-transform: uppercase; }
   .brand a {
     color: inherit; }
 
@@ -403,15 +403,15 @@ blockquote {
   border-radius: 3px;
   color: #AAA;
   color: #666666;
+  font-family: "source code pro", inconsolata, consolas, monospace;
   margin-top: 3em;
-  padding: 1em 1.5em 0.5em;
-  font-family: "source code pro", inconsolata, consolas, monospace; }
+  padding: 1em 1.5em 0.5em; }
 
 .footer {
-  padding: 1em 1em 0.5em;
   background-color: #F0F0F0;
-  color: #AAA;
   border-radius: 3px;
+  color: #AAA;
+  padding: 1em 1em 0.5em;
   text-align: center; }
   .footer, .footer a {
     color: #AAA; }
@@ -419,8 +419,8 @@ blockquote {
     color: #0074D9; }
 
 .projects {
-  border-radius: 3px;
   background-color: #feeaf9;
+  border-radius: 3px;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;

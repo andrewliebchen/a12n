@@ -19,8 +19,8 @@ $linkTransition: 0.05s linear;
 
 html,
 body {
-  font-family: $fontFamilyBase;
   color: $colorText;
+  font-family: $fontFamilyBase;
   font-size: 18px;
   line-height: 1.6;
 }
@@ -30,8 +30,8 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 0;
   line-height: 1;
+  margin: 0;
 
   a {
     &,
@@ -59,8 +59,8 @@ ol {
 }
 
 a {
-  transition: all $linkTransition;
   color: $colorText;
+  transition: all $linkTransition;
 
   &:hover {
     color: $colorLink;
@@ -68,8 +68,8 @@ a {
 
   &:active {
     $color: lighten($colorLink, 20%);
-    transition: none;
     color: $color;
+    transition: none;
   }
 }
 
@@ -123,8 +123,8 @@ blockquote {
 // LAYOUT
 .width-wrapper {
   @include clearfix;
-  max-width: $maxWidth;
   margin: 0 auto;
+  max-width: $maxWidth;
   padding: 0 3em;
 }
 
@@ -141,12 +141,12 @@ blockquote {
 
 .brand {
   color: $colorLight;
-  text-transform: uppercase;
   font-size: 4em;
-  text-align: center;
-  margin-top: -0.3em;
   font-weight: 900;
   letter-spacing: -0.02em;
+  margin-top: -0.3em;
+  text-align: center;
+  text-transform: uppercase;
 
   a {
     color: inherit;
@@ -162,16 +162,16 @@ blockquote {
   border-radius: 3px;
   color: $colorMid;
   color: lighten($colorDark, 20%);
+  font-family: $fontFamilyMonospace;
   margin-top: 3em;
   padding: 1em 1.5em 0.5em;
-  font-family: $fontFamilyMonospace;
 }
 
 .footer {
-  padding: 1em 1em 0.5em;
   background-color: $colorLight;
-  color: $colorMid;
   border-radius: 3px;
+  color: $colorMid;
+  padding: 1em 1em 0.5em;
   text-align: center;
 
   &,
@@ -186,8 +186,8 @@ blockquote {
 
 // PROJECTS
 .projects {
-  border-radius: 3px;
   background-color: lighten(#F012BE, 45%);
+  border-radius: 3px;
   display: flex;
   margin-left: -3em;
   margin-right: -3em;
