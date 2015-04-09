@@ -120,7 +120,7 @@ For example, we can generate documentation for our button family from the follow
 We have a `grunt serve` task that watches SCSS files for changes, recompiles the stylesheets, builds the styleguide (with [kss-node](https://github.com/kss-node/kss-node)), and runs a local development server.
 Since you can define markup for a component within the SCSS partial, we can create components in isolation without having to spin up our applications locally.
 
-We deploy the [styleguide](http://opengov.github.io/Ovid-styleguide/) via Github pages, because it's just so convenient.
+We deploy the [styleguide](http://opengov.github.io/UI/) via Github pages, because it's just so convenient.
 
 ## Build and deployment
 
