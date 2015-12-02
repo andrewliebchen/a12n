@@ -541,3 +541,41 @@ blockquote {
   margin-bottom: 2em; }
   .post-excerpt p {
     margin-bottom: 0; }
+
+@-webkit-keyframes banner {
+  0% {
+    margin-top: -9em; }
+  100% {
+    margin-top: 0; } }
+
+@keyframes banner {
+  0% {
+    margin-top: -9em; }
+  100% {
+    margin-top: 0; } }
+
+.banner {
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+  -webkit-animation: banner 0.6s ease-in-out;
+          animation: banner 0.6s ease-in-out;
+  background-color: #0074D9;
+  height: 9em;
+  margin-top: -9em;
+  overflow: hidden;
+  position: relative;
+  z-index: 99; }
+  .banner,
+  .banner a {
+    color: white; }
+  .banner .width-wrapper {
+    padding-top: 1em;
+    position: relative; }
+  .banner .brand {
+    bottom: -1.03em;
+    color: #0066c0;
+    left: 0;
+    position: absolute;
+    right: 0; }

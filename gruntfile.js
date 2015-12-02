@@ -72,6 +72,7 @@ module.exports = function(grunt) {
         './stylesheets/**/*.scss',
         './_layouts/*.html',
         './*.html',
+        '_includes/*.html',
         './_posts/*.md'
       ],
       tasks: ['build'],
