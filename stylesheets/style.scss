@@ -274,11 +274,12 @@ $bannerHeight: 9em;
 }
 
 .banner {
+  animation: banner 0.6s ease-in-out;
   animation-delay: 1s;
   animation-fill-mode: forwards;
-  animation: banner 0.6s ease-in-out;
   background-color: $colorLink;
   height: $bannerHeight;
+  margin-top: -($bannerHeight);
   overflow: hidden;
   position: relative;
   z-index: 99;
