@@ -279,7 +279,6 @@ $bannerHeight: 9em;
   animation: banner 0.6s ease-in-out;
   background-color: $colorLink;
   height: $bannerHeight;
-  margin-top: -($bannerHeight);
   overflow: hidden;
   position: relative;
   z-index: 99;
