@@ -64,14 +64,14 @@ While this may break the "u" and "i" keys from over-use, this namespacing helps 
 Variable names are abstract and written in camelCase.
 For families of variables, we append a number to the base name with `1` being the biggest or darkest. This fits in with the `h1`, `h2`, etc. convention.
 
-```
+{% highlight sass %}
 $colorGray1: #444;
 $colorGray2: #737373;
 $colorGray3: #909090;
 $colorGray4: #ccc;
 $colorGray5: #eaeaea;
 $colorGray6: #f7f7f7;
-```
+{% endhighlight %}
 
 ## Fun facts
 
@@ -91,7 +91,7 @@ The best thing about developing with Ovid is our living styleguide.
 We use [Knyle Style Sheets](http://warpspire.com/kss/) (KSS) to compile a styleguide from formatted comments in Ovid's Sass partials.
 For example, we can generate documentation for our button family from the following comment in `_buttons.scss`
 
-```
+{% highlight sass %}
 // Buttons
 //
 // Use `.ui-button` on any element to create a styled button,
@@ -115,7 +115,7 @@ For example, we can generate documentation for our button family from the follow
 // Styleguide 6.1
 
 .ui-button {...}
-```
+{% endhighlight %}
 
 We have a `grunt serve` task that watches SCSS files for changes, recompiles the stylesheets, builds the styleguide (with [kss-node](https://github.com/kss-node/kss-node)), and runs a local development server.
 Since you can define markup for a component within the SCSS partial, we can create components in isolation without having to spin up our applications locally.
@@ -145,5 +145,3 @@ Hopefully this is useful.
 If you have questions or comments about anything here, please feel free to Tweet them to me [@andrewliebchen](https://twitter.com/andrewliebchen)!
 
 _*NOTE* I intended to post this in [OpenGov](http://opengov.com)'s engineering blog for it's pending launch. Unfortunately, that launch seems to be permanently pending. Consider this an insider preview..._
-
-

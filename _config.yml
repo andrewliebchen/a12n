@@ -1,4 +1,4 @@
 name: Andrew Liebchen
-markdown: redcarpet
-highlighter: pygments
+markdown: kramdown
+highlighter: rogue
 baseurl: "http://andrewliebchen.github.io/a12n"
