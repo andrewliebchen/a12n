@@ -14,14 +14,14 @@ I've studied architecture at [RISD](http://risd.edu). You can find me on [Instag
 
 ## Professional
 * At **Persista** I design a product to help you find things across all your web services. Try it out for yourself at [Persista.com](https://persista.com).
-* As a designer at **OpenGov** I helped transformed the way governments analyze, share, and compare financial and performance intelligence. More 👉
-* With **Financial Diligence Networks** I designed a platform that connected hedge funds and their investors over a private due diligence network. More 👉
-* While at **GroupVisual.io** I designed data-driven UI tools for companies with big data problems. More 👉
+* As a designer at **OpenGov** I helped transformed the way governments analyze, share, and compare financial and performance intelligence. [More 👉]()
+* With **Financial Diligence Networks** I designed a platform that connected hedge funds and their investors over a private due diligence network. [More 👉]()
+* While at **GroupVisual.io** I designed data-driven UI tools for companies with big data problems. [More 👉]()
 
 
 ## Projects
 * **TeamArchitecture** Design and development experiments (coming soon, chill).
-* **OhEmGee** is an Invision clone under development. More 👉
+* **OhEmGee** is an Invision clone under development. [More 👉]()
 * [Reacticons](https://www.npmjs.com/package/reacticons) Scalable file icons for ReactJS.
 * [Gradient Barchart](https://www.npmjs.com/package/gradient-barchart) Simple bar charts with React and CSS `linear-gradient`.
 * [BTSTRP](https://www.npmjs.com/package/btstrp) is the smallest UI framework. Literally.

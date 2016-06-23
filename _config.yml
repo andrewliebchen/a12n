@@ -7,6 +7,7 @@ url: andrewliebchen.com
 
 source: src
 destination: _site
+permalink: /:slug
 
 author:
   name: Andrew Liebchen
