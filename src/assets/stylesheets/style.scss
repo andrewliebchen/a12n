@@ -10,9 +10,15 @@ $color-light: #F0F0F0;
 $color-text: $color-dark;
 $color-link: #0074D9;
 
+$max-width: 45rem;
+
 $font-family: "tofino", "helvetica neue", helvetica, arial, sans-serif;
-$font-size: 16px;
-$line-height: 1.5;
+$font-size: 18px;
+$line-height: 1.6;
+
+* {
+  box-sizing: border-box;
+}
 
 html,
 body {
@@ -20,4 +26,40 @@ body {
   font-size: $font-size;
   line-height: $line-height;
   color: $color-text;
+}
+
+h2 {
+  margin-top: 2em;
+}
+
+h3 {
+  margin-bottom: 0;
+}
+
+p {
+  margin: 0 0 1em;
+}
+
+a {
+  cursor: pointer;
+  color: $color-link;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+img {
+  display: block;
+  margin: 1rem auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.container {
+  max-width: $max-width;
+  padding: 0 2rem 1rem;
+  margin: 0 auto;
 }
