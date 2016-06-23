@@ -1,4 +1,26 @@
-name: Andrew Liebchen
-markdown: kramdown
-highlighter: rogue
-baseurl: "http://andrewliebchen.github.io/a12n"
+# Title, decription, tagline and URL for your site
+# Can be used in your theme by calling 'site.title' and so on
+title: Andrew Liebchen
+description:
+tagline:
+url: andrewliebchen.com
+
+source: src
+destination: _site
+
+author:
+  name: Andrew Liebchen
+  email: andrewliebchen@gmail.com
+
+# googleAnalytics: UA-71996852-1
+
+gems:
+  - redcarpet
+  - octopress-autoprefixer
+  - jekyll-coffeescript
+  - support-for
+  - normalize-scss
+exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
+
+sass:
+  sass_dir: src/assets/stylesheets

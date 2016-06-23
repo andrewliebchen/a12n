@@ -4,4 +4,10 @@ require 'json'
 require 'open-uri'
 versions = JSON.parse(open('https://pages.github.com/versions.json').read)
 
+gem 'jekyll'
 gem 'github-pages', versions['github-pages']
+gem 'octopress-autoprefixer'
+gem 'jekyll-coffeescript'
+gem 'redcarpet'
+gem 'support-for'
+gem 'normalize-scss'

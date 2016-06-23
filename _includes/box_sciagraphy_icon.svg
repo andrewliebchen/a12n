@@ -1,7 +1,0 @@
-<svg version="1.1"
-  class="project-icon"
-  viewBox="0 0 100 100"
-  width="120px">
-<rect class="project-shape" width="60" height="60"/>
-<polygon class="project-shape" points="100,100 40,100 0,60 0,0 60,0 100,40 "/>
-</svg>
