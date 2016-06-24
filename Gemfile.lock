@@ -100,8 +100,6 @@ GEM
     nokogiri (1.6.8)
       mini_portile2 (~> 2.1.0)
       pkg-config (~> 1.1.7)
-    normalize-scss (5.0.3)
-      sass (~> 3.3)
     octokit (4.3.0)
       sawyer (~> 0.7.0, >= 0.5.3)
     octopress-autoprefixer (2.0.0)
@@ -119,8 +117,6 @@ GEM
     sawyer (0.7.0)
       addressable (>= 2.3.5, < 2.5)
       faraday (~> 0.8, < 0.10)
-    support-for (1.0.6)
-      sass (~> 3.3)
     terminal-table (1.6.0)
     thread_safe (0.3.5)
     typhoeus (0.8.0)
@@ -136,10 +132,8 @@ DEPENDENCIES
   jekyll
   jekyll-coffeescript
   json
-  normalize-scss
   octopress-autoprefixer
   redcarpet
-  support-for
 
 BUNDLED WITH
    1.11.2

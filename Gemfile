@@ -9,5 +9,3 @@ gem 'github-pages', versions['github-pages']
 gem 'octopress-autoprefixer'
 gem 'jekyll-coffeescript'
 gem 'redcarpet'
-gem 'support-for'
-gem 'normalize-scss'

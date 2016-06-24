@@ -19,8 +19,6 @@ gems:
   - redcarpet
   - octopress-autoprefixer
   - jekyll-coffeescript
-  - support-for
-  - normalize-scss
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
 
 sass:
