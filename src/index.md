@@ -3,7 +3,7 @@ layout: default
 title: Andrew Liebchen
 ---
 
-# Andrew Liebchen
+# Liebchen is German for "sweetheart"
 
 I’m a professional designer and amateur developer. During the day, I make beautiful and useful digital experiences for people at [Persista](https://persista.com). Previously, I've designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com), to make hedge fund due diligence better.
 
@@ -37,9 +37,8 @@ I’ve gone that route with every portfolio/blog I’ve ever had. While it’s g
 Yup, though I think it literally means “love child.” I don’t speak German, and I was adopted so... I try to live up to my name, but I’m not always successful.
 
 ### What is your favorite gif?
-Of all time? Probably got to be cat in the shark costume on a Roomba chases a duck:
+Of all time? Probably got to be cat in the shark costume on a Roomba chasing a duck:
 ![](http://i.giphy.com/Q7ZckMLgjmthK.gif)
-
 
 ### Have you got a resume?
 Yep, who doesn’t? [Here you go!](https://www.dropbox.com/s/njhueufu0b3wpyc/Andrew%20Liebchen%20resume.pdf?dl=0)

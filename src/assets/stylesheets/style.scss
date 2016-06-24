@@ -8,6 +8,7 @@ $color-mid:   #AAA;
 $color-light: #F0F0F0;
 
 $color-text: $color-dark;
+$color-background: white;
 $color-link: #0074D9;
 
 $max-width: 45rem;
@@ -26,6 +27,11 @@ body {
   font-size: $font-size;
   line-height: $line-height;
   color: $color-text;
+  background-color: $color-background;
+}
+
+h1 {
+  letter-spacing: 0.02em;
 }
 
 h2 {
