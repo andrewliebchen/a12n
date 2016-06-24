@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Andrew Liebchen
+title: Designer
 ---
 
 # Liebchen is German for "sweetheart"
