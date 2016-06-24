@@ -5,8 +5,6 @@ description:
 tagline:
 url: andrewliebchen.com
 
-source: src
-destination: _site
 permalink: /:slug
 
 author:
@@ -20,6 +18,3 @@ gems:
   - octopress-autoprefixer
   - jekyll-coffeescript
 exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
-
-sass:
-  sass_dir: src/assets/stylesheets
