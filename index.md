@@ -5,7 +5,7 @@ title: Designer
 
 # Liebchen is German for "sweetheart"
 
-I’m a professional designer and amateur developer. During the day, I make beautiful and useful digital experiences for people at [Persista](https://persista.com). Previously, I've designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com), to make hedge fund due diligence better.
+I’m a professional designer and amateur developer. Most recently, I make beautiful and useful digital experiences for people at [Persista](https://persista.com). Before that, I designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com), to make hedge fund due diligence better.
 
 At night I ride my bike, hang out with my cats, make dinner for my wife, and build silly things for the internet. I've studied architecture at [RISD](http://risd.edu). I live in Mountain View and work in San Francisco.
 
@@ -13,14 +13,14 @@ You can find me on 📷[Instagram](https://www.instagram.com/andrewliebchen/), �
 
 
 ## Professional
-* At **Persista** I design a product to help you find things across all your web services. Try it out for yourself at [Persista.com](https://persista.com).
+* At **Persista** I designed a product to help you find things across all your web services. Try it out for yourself at [Persista.com](https://persista.com).
 * As a designer at **OpenGov** I helped transformed the way governments analyze, share, and compare financial and performance intelligence. [More](/opengov) 👉
 * With **Financial Diligence Networks** I designed a platform that connected hedge funds and their investors over a private due diligence network. [More](/fdn) 👉
 * While at **GroupVisual.io** I designed data-driven UI tools for companies with big data problems. [More](/groupvisualio) 👉
 
 
 ## Projects
-* **TeamArchitecture** Design and development experiments (coming soon, chill).
+* ~~**TeamArchitecture** Design and development experiments.~~ (coming soon, chill)
 * **OhEmGee** is an Invision clone under development. [More](/ohemgee)👉
 * [Reacticons](https://www.npmjs.com/package/reacticons) Scalable file icons for ReactJS.
 * [Gradient Barchart](https://www.npmjs.com/package/gradient-barchart) Simple bar charts with React and CSS `linear-gradient`.
