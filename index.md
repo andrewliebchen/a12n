@@ -3,9 +3,9 @@ layout: default
 title: Designer
 ---
 
-# Liebchen is German for "sweetheart"
+# Liebchen is German for "Sweetheart."
 
-I’m a professional designer and amateur developer. Most recently, I make beautiful and useful digital experiences for people at [Persista](https://persista.com). Before that, I designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com), to make hedge fund due diligence better.
+I’m a professional designer and developer. Most recently, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). Before that, I designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com) to improve hedge fund due diligence.
 
 At night I ride my bike, hang out with my cats, make dinner for my wife, and build silly things for the internet. I've studied architecture at [RISD](http://risd.edu). I live in Mountain View and work in San Francisco.
 
@@ -33,11 +33,11 @@ You can find me on 📷[Instagram](https://www.instagram.com/andrewliebchen/), �
 ### If you’re a designer, why didn’t you bother to design this website?
 I’ve gone that route with every portfolio/blog I’ve ever had. While it’s great to express yourself with the design of your portfolio itself, I find that 80% of the effort goes into the site design, development, and devops, with only 20% going toward content. That’s exhausting. The stack for this site is a straight-forward Jekyll setup, with little design and development work. Deployment is via a simple push to Github Pages.
 
-### Does Liebchen really mean “sweetheart?”
+### Does Liebchen really mean “Sweetheart?”
 Yup, though I think it literally means “love child.” I don’t speak German, and I was adopted so... I try to live up to my name, but I’m not always successful.
 
 ### What is your favorite gif?
-Of all time? Probably got to be cat in the shark costume on a Roomba chasing a duck:
+Of all time? Probably has to be cat in the shark costume on a Roomba chasing a duck:
 ![](http://i.giphy.com/Q7ZckMLgjmthK.gif)
 
 ### Have you got a resume?
