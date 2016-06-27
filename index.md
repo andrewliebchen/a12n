@@ -41,4 +41,4 @@ Of all time? Probably has to be cat in the shark costume on a Roomba chasing a d
 ![](http://i.giphy.com/Q7ZckMLgjmthK.gif)
 
 ### Have you got a resume?
-Yep, who doesn’t? [Here you go!](https://www.dropbox.com/s/njhueufu0b3wpyc/Andrew%20Liebchen%20resume.pdf?dl=0)
+Yep, who doesn’t? [Here you go!](https://dl.dropboxusercontent.com/u/6036675/Andrew%20Liebchen%20Portfolio%202013/Andrew%20Liebchen%201606.pdf)
