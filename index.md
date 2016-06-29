@@ -20,8 +20,8 @@ You can find me on 📷[Instagram](https://www.instagram.com/andrewliebchen/), �
 
 
 ## Projects
-* ~~**TeamArchitecture** Design and development experiments.~~ (coming soon, chill)
-* **OhEmGee** is an Invision clone under development. [More](/ohemgee)👉
+* ~~**OhEmGee** Design and development experiments.~~ (coming soon, chill)
+* **Visual collaboration tool** is an Invision clone under development. [More](/visual-collaboration) 👉
 * [Reacticons](https://www.npmjs.com/package/reacticons) Scalable file icons for ReactJS.
 * [Gradient Barchart](https://www.npmjs.com/package/gradient-barchart) Simple bar charts with React and CSS `linear-gradient`.
 * [BTSTRP](https://www.npmjs.com/package/btstrp) is the smallest UI framework. Literally.
