@@ -20,7 +20,7 @@ You can find me on 📷[Instagram](https://www.instagram.com/andrewliebchen/), �
 
 
 ## Projects
-* ~~**OhEmGee** Design and development experiments.~~ (coming soon, chill)
+* [OhEmGee!](http://ohemgee.space) Design and development experiments. 📐☠️🎉
 * **Visual collaboration tool** is an Invision clone under development. [More](/visual-collaboration) 👉
 * [Reacticons](https://www.npmjs.com/package/reacticons) Scalable file icons for ReactJS.
 * [Gradient Barchart](https://www.npmjs.com/package/gradient-barchart) Simple bar charts with React and CSS `linear-gradient`.
