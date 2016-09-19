@@ -5,9 +5,9 @@ title: Designer
 
 # Liebchen is German for "Sweetheart."
 
-I’m a professional designer and developer. Most recently, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). Before that, I designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com) to improve hedge fund due diligence.
+I’m a professional designer and developer. Currently, I'm a product design at [Facebook](http://facebook.design/) 👍. Before that, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). And before that, I designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com) to improve hedge fund due diligence.
 
-At night I ride my bike, hang out with my cats, make dinner for my wife, and build silly things for the internet. I've studied architecture at [RISD](http://risd.edu). I live in Mountain View and work in San Francisco.
+I like to ride my bike, hang out with my cats, make dinner for my wife, and build silly things for the internet. I've studied architecture at [RISD](http://risd.edu). I live in Mountain View and work in San Francisco.
 
 You can find me on 📷[Instagram](https://www.instagram.com/andrewliebchen/), 🗒[Medium](https://medium.com/@andrewliebchen), 🐣[Twitter](https://twitter.com/andrewliebchen), 🏀[Dribbble](https://dribbble.com/andrewliebchen), 💻[Github](https://github.com/andrewliebchen).
 
