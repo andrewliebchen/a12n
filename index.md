@@ -7,12 +7,13 @@ title: Designer
 
 I’m a professional designer and developer. Currently, I'm a product design at [Facebook](http://facebook.design/) 👍. Before that, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). And before that, I designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com) to improve hedge fund due diligence.
 
-I like to ride my bike, hang out with my cats, make dinner for my wife, and build silly things for the internet. I've studied architecture at [RISD](http://risd.edu). I live in Mountain View and work in San Francisco.
+I like to ride my bike, hang out with my cats, make dinner for my wife, and build silly things for the internet. I've studied architecture at [RISD](http://risd.edu). I live in Mountain View and work in Menlo Park.
 
 You can find me on 📷[Instagram](https://www.instagram.com/andrewliebchen/), 🗒[Medium](https://medium.com/@andrewliebchen), 🐣[Twitter](https://twitter.com/andrewliebchen), 🏀[Dribbble](https://dribbble.com/andrewliebchen), 💻[Github](https://github.com/andrewliebchen).
 
 
 ## Professional
+* At **Facebook**, I currently design tools and experiences that help Facebook employees plan and manage their career. Previously, I worked on a TOP SECRET in-house replacement for Tableau.
 * At **Persista** I designed a product to help you find things across all your web services. Try it out for yourself at [Persista.com](https://persista.com).
 * As a designer at **OpenGov** I helped transformed the way governments analyze, share, and compare financial and performance intelligence. [More](/opengov) 👉
 * With **Financial Diligence Networks** I designed a platform that connected hedge funds and their investors over a private due diligence network. [More](/fdn) 👉
