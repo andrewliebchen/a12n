@@ -45,4 +45,4 @@ Of all time? Probably has to be cat in the shark costume on a Roomba chasing a d
 
 ### Have you got a resume?
 
-Yep, who doesn't? But I'm not looking for a new job right now. Search for me on LinkedIn if you want to see where I worked in 2005.
+Yep, who doesn't? Since I'm not looking for a new job right now, you'll have to search for me on LinkedIn if you want to see where I worked in 2005.
