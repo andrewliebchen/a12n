@@ -16,7 +16,6 @@ You can find me on 🗒[Medium](https://medium.com/@andrewliebchen), 📷[Instag
 - At **Facebook**, I currently design tools and experiences that help Facebook managers be the best in the world. Before that, I was working on tools to help employees plan and manage their career.
 - At **Persista** I designed a product to help you find things across all your web services. The Persista team has since pivoted to work building intelligent software for local governments as [Camino](https://www.camino.ai/).
 - As a designer at **OpenGov** I helped transformed the way governments analyze, share, and compare financial and performance intelligence...[More](/opengov) 👉
-
 - With **Financial Diligence Networks** I designed a platform that connected hedge funds and their investors over a private due diligence network...[More](/fdn) 👉
 - While at **GroupVisual.io** I designed data-driven UI tools for companies with big data problems...[More](/groupvisualio) 👉
 
