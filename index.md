@@ -5,31 +5,44 @@ title: Designer
 
 # Liebchen is German for "Sweetheart."
 
-I’m a professional designer and developer. Currently, I'm a product designer at [Facebook](http://facebook.design/) 👍. Before that, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). And before that, I designed and developed products at [OpenGov](https://opengov.com) to advance civic financial reporting and at [FDN](http://gofdn.com) to improve hedge fund due diligence.
+I’m a professional designer and developer. Currently, I'm a product designer at 😎 [Meta Reality Labs](http://quest.com/) where I'm working on bringing the excitement of VR to 2D on our 📱 [mobile app](https://apps.apple.com/us/app/oculus/id1366478176). Before that, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). Before _that_, I designed and developed products at 🏛 [OpenGov](https://opengov.com) to advance civic financial reporting and at 💰[FDN](http://gofdn.com) to improve hedge fund due diligence.
 
-I like to ride my bike, hang out with my cats, make dinner for my wife, and build silly things for the internet. I've studied architecture at [RISD](http://risd.edu). I live in Mountain View and work in Menlo Park.
+I live in SF, I have three cats, and I love making things. I've studied architecture at 🎨 [RISD](http://risd.edu). You can find me on 🐣 [Twitter](https://twitter.com/andrewliebchen) and 💻 [Github](https://github.com/andrewliebchen).
 
-You can find me on 🗒[Medium](https://medium.com/@andrewliebchen), 📷[Instagram](https://www.instagram.com/andrewliebchen/), 🐣[Twitter](https://twitter.com/andrewliebchen), 🏀[Dribbble](https://dribbble.com/andrewliebchen), 💻[Github](https://github.com/andrewliebchen).
+## Experience
 
-## Professional
+### Senior Product Designer at Meta Reality Labs
 
-- At **Facebook**, I currently design tools and experiences that help Facebook managers be the best in the world. Before that, I was working on tools to help employees plan and manage their career.
-- At **Persista** I designed a product to help you find things across all your web services. The Persista team has since pivoted to work building intelligent software for local governments as [Camino](https://www.camino.ai/).
-- As a designer at **OpenGov** I helped transformed the way governments analyze, share, and compare financial and performance intelligence...[More](/opengov) 👉
-- With **Financial Diligence Networks** I designed a platform that connected hedge funds and their investors over a private due diligence network...[More](/fdn) 👉
-- While at **GroupVisual.io** I designed data-driven UI tools for companies with big data problems...[More](/groupvisualio) 👉
+Jan 2020 - present
+Bringing the excitement of VR to 2D with the Quest mobile app. Previously, social experiences for VR, including launching Messenger for the Quest VR headset.
 
-## Projects
+### Product Designer at Meta/Facebook
 
-- [ECMA Framer](https://github.com/andrewliebchen/ecma-framer), a prototyping environment for classic Framer in vanilla JS ([read more about this project](https://blog.prototypr.io/framerjs-without-the-coffeescript-54a5031a8a53))
-- A whole bunch of **Framer modules** like [Framer Sheet](https://github.com/andrewliebchen/framer-sheet), [Framer Stylesheets](https://github.com/andrewliebchen/framer-stylesheet), [Framer Lorem Ipsum](https://github.com/andrewliebchen/FramerLoremIpsum), [Framer State Machine](https://github.com/andrewliebchen/framer-state-machine)
-- **Slides Dot 🎉** Hosted slideshows with Markdown.
-- **OhEmGee!** Design and development experiments. 📐☠️🎉
-- **Visual collaboration tool** is an Invision clone I was working on for awhile. [More](/visual-collaboration) 👉
-- [Reacticons](http://andrewliebchen.github.io/reacticons/) Scalable file icons for ReactJS.
-- [Gradient Barchart](http://andrewliebchen.github.io/gradient-barchart/example/) Simple bar charts with React and CSS `linear-gradient`.
-- [BTSTRP](http://andrewliebchen.github.io/BTSTRP/) is the smallest UI framework. Literally.
-- [Box-sciagraphy](http://andrewliebchen.github.io/box-sciagraphy/) Sun-based `box-shadows` .
+Sep 2016 - Jan 2020
+Designed and built HR and data products for tens of thousands of Facebook employees worldwide.
+
+### Product Designer at Persista
+
+Feb 2016 - Jun 2016
+Early-stage startup. Collaborated with the founder and team to design and build products to help you find what you need in your email, chats, and documents.
+
+### Lead Designer at OpenGov
+
+Jan 2014 - Nov 2015
+Designed and built products that change the way governments understand, explore, and plan their public finances.
+
+### Lead Designer at Financial Diligence Networks
+
+Nov 2012 - Dec 2013
+Created unique user experiences within a networking and information exchange platform for hedge funds and their investors.
+
+### Rhode Island School of Design
+
+Masters of Architecture 2009
+
+### University of North Carolina at Greensboro
+
+Bachelor of Fine Arts 2004
 
 ## FAQs
 

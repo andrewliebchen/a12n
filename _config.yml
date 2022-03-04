@@ -13,8 +13,8 @@ author:
 
 # googleAnalytics: UA-71996852-1
 
-gems:
+plugins:
   - redcarpet
   - octopress-autoprefixer
   - jekyll-coffeescript
-exclude: ['Gemfile', 'Gemfile.lock', 'vendor']
+exclude: ["Gemfile", "Gemfile.lock", "vendor"]
