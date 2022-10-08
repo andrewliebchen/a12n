@@ -5,36 +5,42 @@ title: Designer
 
 # Liebchen is German for "Sweetheart."
 
-I’m a professional designer and developer. Currently, I'm a product designer at 😎 [Meta Reality Labs](http://quest.com/) where I'm working on bringing the excitement of VR to 2D on our 📱 [mobile app](https://apps.apple.com/us/app/oculus/id1366478176). Before that, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). Before _that_, I designed and developed products at 🏛 [OpenGov](https://opengov.com) to advance civic financial reporting and at 💰[FDN](http://gofdn.com) to improve hedge fund due diligence.
+I’m a professional designer and developer. Currently, I'm a product designer at 😎 [Meta Reality Labs](http://quest.com/) where I'm working on bringing the excitement of VR to 2D on the 📱 [Meta Quest mobile app](https://apps.apple.com/us/app/oculus/id1366478176). Before that, I made beautiful and useful digital experiences for people at [Persista](https://persista.com). Before _that_, I designed and developed products at 🏛 [OpenGov](https://opengov.com) to advance civic financial reporting and at 💰[FDN](http://gofdn.com) to improve hedge fund due diligence.
 
 I live in SF, I have three cats, and I love making things. I've studied architecture at 🎨 [RISD](http://risd.edu). You can find me on 🐣 [Twitter](https://twitter.com/andrewliebchen) and 💻 [Github](https://github.com/andrewliebchen).
 
 ## Experience
 
+<div class="notice">
+  **Recruiters:** Currently I'm not not looking for new work. I appreciate all the hard work you do, so for now, please shuffle my resume to the bottom of the pile, and check back again later 🙌❤️
+</div>
+
 ### Senior Product Designer at Meta Reality Labs
 
-Jan 2020 - present
-Bringing the excitement of VR to 2D with the Quest mobile app. Previously, social experiences for VR, including launching Messenger for the Quest VR headset.
+_Jan 2020 - present_
+Bringing the excitement of VR to 2D with the Meta Quest mobile app. Previously, social experiences for VR, including launching Messenger for the Quest VR headset.
 
 ### Product Designer at Meta/Facebook
 
-Sep 2016 - Jan 2020
-Designed and built HR and data products for tens of thousands of Facebook employees worldwide.
+_Sep 2016 - Jan 2020_
+Designed and built HR and data products used by tens of thousands of Facebook employees worldwide.
 
 ### Product Designer at Persista
 
-Feb 2016 - Jun 2016
+_Feb 2016 - Jun 2016_
 Early-stage startup. Collaborated with the founder and team to design and build products to help you find what you need in your email, chats, and documents.
 
 ### Lead Designer at OpenGov
 
-Jan 2014 - Nov 2015
+_Jan 2014 - Nov 2015_
 Designed and built products that change the way governments understand, explore, and plan their public finances.
 
 ### Lead Designer at Financial Diligence Networks
 
-Nov 2012 - Dec 2013
+_Nov 2012 - Dec 2013_
 Created unique user experiences within a networking and information exchange platform for hedge funds and their investors.
+
+## Education
 
 ### Rhode Island School of Design
 

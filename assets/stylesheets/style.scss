@@ -3,15 +3,16 @@
 
 @import "normalize";
 
-$color-dark:  #333;
-$color-mid:   #AAA;
-$color-light: #F0F0F0;
+$color-dark: #333;
+$color-mid: #aaa;
+$color-light: #f0f0f0;
 
 $color-text: $color-dark;
 $color-background: white;
-$color-link: #0074D9;
+$color-link: #0074d9;
 
-$font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica, sans-serif;
+$font-family: -apple-system, BlinkMacSystemFont, "helvetica neue", helvetica,
+  sans-serif;
 $font-size: 16px;
 $line-height: 1.5;
 
@@ -75,4 +76,11 @@ img {
   max-width: $max-width;
   padding: 0 2rem 1rem;
   margin: 0 auto;
+}
+
+.notice {
+  background-color: $color-link;
+  padding: 2rem;
+  color: white;
+  border-radius: 1rem;
 }
