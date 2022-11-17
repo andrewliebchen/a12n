@@ -71,7 +71,7 @@ img {
 .notice {
   background-color: var(--color-light);
   padding: 1.5rem;
-  border-radius: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 /* @media screen and (min-width: 64rem) {
